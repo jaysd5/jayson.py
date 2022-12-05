@@ -1,15 +1,15 @@
 #!/bin/python
 
-print("hello pyton!")
+my_number1 = 123
+my_number2 = 42 
 
+print (my_number1)
+print (my_number2)
 
-loisir = ["gaming", "musique", "clavier", "souris"]
-print(loisir[0])
-print(loisir[1])
-print(loisir[2])
-print(loisir[3])
+my_number3 = 3.14
+my_number4 = 2.71
+my_number5 = 0.0 
 
-for loisir in loisir :
-    print(loisir)
-    print(loisir*4)
-print("bravo tu c'est faire un variable")
+print (my_number3)
+print (my_number4)
+print ( my_number5)
