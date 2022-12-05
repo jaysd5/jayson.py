@@ -67,3 +67,33 @@ b = 42
 # permutation des variable 
 a,b = b,a
 print (a,b)
+
+# transtypage 
+# str vers int 
+foo = "123"
+foo = int(foo)
+print (type(foo))
+
+# str vers float 
+foo = "123"
+foo = float(foo)
+print (type(foo))
+
+# float vers int ,permet de suprimer tout ce qui ce trouve derriere la virgule 
+foo = 3.14
+foo = int(foo)
+print (foo)
+
+foo = 3.14 
+# float vers str    
+foo = str(foo)
+print (foo)
+
+#
+foo = 2.71
+# recuper la parti entiere 
+a = ...
+# recuprer la parti apres avec la vergile 
+b = ...
+print (a)
+print (b)
