@@ -44,4 +44,26 @@ print  (my_texte2)
 # \ caratére d'echapement 
 # \ n saut a la ligne 
 my_texte3 = "abc\def\ghi"
+my_texte4 = "John \"Foo\"  Doe"
 print (my_texte3)
+print (my_texte4)
+print (type(my_texte1))
+
+my_texte5 = """abc
+def 
+ghi 
+"""
+print (my_texte5)
+
+my_texte6 = '''abc
+def 
+ghi 
+'''
+print (my_texte6)
+print (type(my_texte5))
+
+a = 123 
+b = 42 
+# permutation des variable 
+a,b = b,a
+print (a,b)
