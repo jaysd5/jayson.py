@@ -97,3 +97,40 @@ a = ...
 b = ...
 print (a)
 print (b)
+
+# trastypage == type casting == convertion d'un type de données
+# 0 donne false (faux) et les autre nombre dit true (vrai)
+
+my_number7 = 3
+print (bool(my_number7))
+
+# convertion explecite 
+if bool(my_number7):
+    print ("l'utilasuer a mis autre que zero") 
+else: 
+    print ("l'utilisateru a mis zero")
+
+# convertion implicite 
+if my_number7 :
+    print ("l'utilisateur a ecrit quelque chose")
+else :
+    print ("l'utilisateur na rien ecrit")
+
+# liste 
+fruit = ['anannas','banane','cerise']
+
+# operatuer d'inclution 
+foo = 'anannas' in fruit 
+print (foo)
+foo = 'fraise' in fruit 
+print (foo)
+
+# convertion explecite booléen
+foo = bool (fruit)
+print (foo)
+
+# convertion implicite 
+if fruit : 
+    print ("tu a acheter pour 10 kg de fruit")
+else :
+    print ("tu a pas d'article")
